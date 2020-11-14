@@ -9,6 +9,10 @@ object FollowingTypesToImpl {
   // 3. need a function literalmthat receives b as input
   // 4.. need to return C, and the only way os to tall f with values of type A and B
   def curry[A,B,C](f: (A,B) => C): A => (B => C) = (a: A) => (b: B) => f(a, b)
+  // return type (A,B) => C
+  // the left side will be (a: A, b: B)
+  // the only way to get C, is to call to A => B => C
+  def uncurry[A,B,C](f: A => B => C): (A, B) => C = (a: A, b: B) => f(a)(b)
 
   def main(args: Array[String]): Unit = {
 
