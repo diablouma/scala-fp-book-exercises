@@ -1,0 +1,18 @@
+Time, Tag, Workers, Files, Compilation Duration (ms), GC Duration (ms)
+2020/11/14 09:39:10,        scala_fp_book/main,   1,     1,       504,        19
+2020/11/14 09:39:20,        scala_fp_book/main,   1,     1,       372,         0
+2020/11/14 09:39:31,        scala_fp_book/main,   1,     1,       356,         0
+2020/11/14 09:39:40,        scala_fp_book/main,   1,     1,       254,         0
+2020/11/14 09:39:55,        scala_fp_book/main,   1,     1,       268,         8
+2020/11/14 09:41:23,        scala_fp_book/main,   1,     1,       238,         0
+2020/11/14 09:43:32,        scala_fp_book/main,   1,     1,       208,         0
+2020/11/14 09:44:08,        scala_fp_book/main,   1,     1,       189,         4
+2020/11/14 09:44:25,        scala_fp_book/main,   1,     1,       219,         0
+2020/11/14 09:44:37,        scala_fp_book/main,   1,     1,       197,         0
+2020/11/14 09:45:16,        scala_fp_book/main,   1,     1,       204,         4
+2020/11/14 09:45:20,        scala_fp_book/main,   1,     1,       195,         0
+2020/11/14 09:45:40,        scala_fp_book/main,   1,     1,       169,         0
+2020/11/14 09:46:29,        scala_fp_book/main,   1,     1,       197,         9
+2020/11/14 09:46:37,        scala_fp_book/main,   1,     1,       169,         0
+2020/11/14 09:54:15,        scala_fp_book/main,   1,     1,       390,         0
+2020/11/14 09:54:45,        scala_fp_book/main,   1,     1,       269,        23

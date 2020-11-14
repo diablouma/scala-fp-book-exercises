@@ -1,0 +1,292 @@
+2020-11-14 09:39:10.698 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 9 ms.
+2020-11-14 09:39:10.701 INFO  c.t.hydra.Hydra - Loaded pickle store with 0 entries.
+2020-11-14 09:39:10.702 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:39:10.702 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:39:10.702 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:39:10.710 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 6 ms.
+2020-11-14 09:39:10.710 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:39:10.901 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 166 ms.
+2020-11-14 09:39:10.901 INFO  c.t.h.l.HydraLicenseChecker - Trying to reactivate license close to expiration date. Days left: 14
+2020-11-14 09:39:10.903 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:39:10.910 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:39:10.919 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:39:11.415 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:39:11.415 INFO  c.t.h.WorkerThread - [worker.0]: 462 ms 	1 sources.
+2020-11-14 09:39:11.422 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 19 milliseconds
+2020-11-14 09:39:11.423 INFO  c.t.hydra.Hydra - Hydra compiling: 504 ms
+2020-11-14 09:39:11.463 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:39:11.465 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 962 ms.
+2020-11-14 09:39:11.485 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343150701
+2020-11-14 09:39:13.354 INFO  c.t.h.l.HydraLicenseChecker - Successfully reactivated license, new days left: 14
+2020-11-14 09:39:20.910 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:39:20.915 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:39:20.915 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:39:20.915 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:39:20.915 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:39:20.916 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-11-14 09:39:20.916 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:39:20.920 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:39:20.921 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:39:20.921 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:39:21.293 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:39:21.293 INFO  c.t.h.WorkerThread - [worker.0]: 371 ms 	1 sources.
+2020-11-14 09:39:21.293 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:39:21.293 INFO  c.t.hydra.Hydra - Hydra compiling: 372 ms
+2020-11-14 09:39:21.294 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:39:21.295 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 871 ms.
+2020-11-14 09:39:21.296 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343160915
+2020-11-14 09:39:31.307 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 2 ms.
+2020-11-14 09:39:31.309 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:39:31.309 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:39:31.309 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:39:31.309 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:39:31.309 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:39:31.309 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:39:31.313 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:39:31.314 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:39:31.314 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:39:31.669 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:39:31.669 INFO  c.t.h.WorkerThread - [worker.0]: 354 ms 	1 sources.
+2020-11-14 09:39:31.670 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:39:31.670 INFO  c.t.hydra.Hydra - Hydra compiling: 356 ms
+2020-11-14 09:39:31.671 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:39:31.671 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 854 ms.
+2020-11-14 09:39:31.673 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343171309
+2020-11-14 09:39:40.692 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:39:40.694 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:39:40.694 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:39:40.694 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:39:40.694 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:39:40.694 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:39:40.694 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:39:40.699 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:39:40.700 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:39:40.700 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:39:40.954 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:39:40.954 INFO  c.t.h.WorkerThread - [worker.0]: 253 ms 	1 sources.
+2020-11-14 09:39:40.954 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:39:40.954 INFO  c.t.hydra.Hydra - Hydra compiling: 254 ms
+2020-11-14 09:39:40.955 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:39:40.955 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 753 ms.
+2020-11-14 09:39:40.957 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343180694
+2020-11-14 09:39:55.951 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:39:55.953 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:39:55.953 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:39:55.954 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:39:55.954 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:39:55.954 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:39:55.954 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:39:55.957 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:39:55.958 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:39:55.958 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:39:56.226 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:39:56.226 INFO  c.t.h.WorkerThread - [worker.0]: 267 ms 	1 sources.
+2020-11-14 09:39:56.226 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 8 milliseconds
+2020-11-14 09:39:56.226 INFO  c.t.hydra.Hydra - Hydra compiling: 268 ms
+2020-11-14 09:39:56.227 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:39:56.228 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 767 ms.
+2020-11-14 09:39:56.229 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343195953
+2020-11-14 09:41:23.600 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:41:23.602 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:41:23.602 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:41:23.602 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:41:23.602 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:41:23.603 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:41:23.603 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:41:23.606 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:41:23.607 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:41:23.607 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:41:23.844 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:41:23.844 INFO  c.t.h.WorkerThread - [worker.0]: 237 ms 	1 sources.
+2020-11-14 09:41:23.845 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:41:23.845 INFO  c.t.hydra.Hydra - Hydra compiling: 238 ms
+2020-11-14 09:41:23.846 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:41:23.846 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 737 ms.
+2020-11-14 09:41:23.848 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343283602
+2020-11-14 09:43:32.115 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 0 ms.
+2020-11-14 09:43:32.118 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:43:32.118 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:43:32.118 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:43:32.118 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:43:32.118 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:43:32.118 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:43:32.122 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:43:32.122 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:43:32.122 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:43:32.330 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:43:32.330 INFO  c.t.h.WorkerThread - [worker.0]: 207 ms 	1 sources.
+2020-11-14 09:43:32.330 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:43:32.330 INFO  c.t.hydra.Hydra - Hydra compiling: 208 ms
+2020-11-14 09:43:32.331 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:43:32.331 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 707 ms.
+2020-11-14 09:43:32.333 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343412118
+2020-11-14 09:44:08.852 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 0 ms.
+2020-11-14 09:44:08.853 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:44:08.853 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:44:08.853 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:44:08.853 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:44:08.854 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-11-14 09:44:08.854 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:44:08.857 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:44:08.857 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:44:08.858 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:44:09.046 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:44:09.046 INFO  c.t.h.WorkerThread - [worker.0]: 188 ms 	1 sources.
+2020-11-14 09:44:09.046 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 4 milliseconds
+2020-11-14 09:44:09.046 INFO  c.t.hydra.Hydra - Hydra compiling: 189 ms
+2020-11-14 09:44:09.047 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:44:09.047 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 688 ms.
+2020-11-14 09:44:09.048 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343448853
+2020-11-14 09:44:25.486 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 0 ms.
+2020-11-14 09:44:25.489 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:44:25.489 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:44:25.489 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:44:25.489 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:44:25.489 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:44:25.489 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:44:25.493 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:44:25.493 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:44:25.493 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:44:25.712 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:44:25.712 INFO  c.t.h.WorkerThread - [worker.0]: 218 ms 	1 sources.
+2020-11-14 09:44:25.712 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:44:25.712 INFO  c.t.hydra.Hydra - Hydra compiling: 219 ms
+2020-11-14 09:44:25.713 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:44:25.713 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 718 ms.
+2020-11-14 09:44:25.715 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343465489
+2020-11-14 09:44:37.838 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:44:37.839 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:44:37.839 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:44:37.839 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:44:37.839 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:44:37.839 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:44:37.839 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:44:37.843 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:44:37.843 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:44:37.843 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:44:38.040 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:44:38.040 INFO  c.t.h.WorkerThread - [worker.0]: 196 ms 	1 sources.
+2020-11-14 09:44:38.040 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:44:38.040 INFO  c.t.hydra.Hydra - Hydra compiling: 197 ms
+2020-11-14 09:44:38.042 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:44:38.042 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 696 ms.
+2020-11-14 09:44:38.043 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343477839
+2020-11-14 09:45:16.187 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 0 ms.
+2020-11-14 09:45:16.189 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:45:16.189 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:45:16.189 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:45:16.189 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:45:16.190 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-11-14 09:45:16.190 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:45:16.194 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:45:16.194 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:45:16.195 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:45:16.398 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:45:16.399 INFO  c.t.h.WorkerThread - [worker.0]: 203 ms 	1 sources.
+2020-11-14 09:45:16.399 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 4 milliseconds
+2020-11-14 09:45:16.399 INFO  c.t.hydra.Hydra - Hydra compiling: 204 ms
+2020-11-14 09:45:16.400 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:45:16.400 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 703 ms.
+2020-11-14 09:45:16.402 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343516189
+2020-11-14 09:45:20.187 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 0 ms.
+2020-11-14 09:45:20.188 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:45:20.188 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:45:20.188 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:45:20.188 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:45:20.189 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:45:20.189 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:45:20.192 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:45:20.192 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:45:20.192 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:45:20.386 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:45:20.386 INFO  c.t.h.WorkerThread - [worker.0]: 193 ms 	1 sources.
+2020-11-14 09:45:20.387 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:45:20.387 INFO  c.t.hydra.Hydra - Hydra compiling: 195 ms
+2020-11-14 09:45:20.388 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:45:20.388 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 693 ms.
+2020-11-14 09:45:20.390 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343520188
+2020-11-14 09:45:40.408 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:45:40.409 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:45:40.409 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:45:40.409 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:45:40.409 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:45:40.409 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:45:40.409 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:45:40.412 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:45:40.412 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:45:40.412 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:45:40.581 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:45:40.581 INFO  c.t.h.WorkerThread - [worker.0]: 168 ms 	1 sources.
+2020-11-14 09:45:40.581 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:45:40.581 INFO  c.t.hydra.Hydra - Hydra compiling: 169 ms
+2020-11-14 09:45:40.583 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:45:40.583 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 668 ms.
+2020-11-14 09:45:40.584 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343540409
+2020-11-14 09:46:29.279 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:46:29.280 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:46:29.280 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:46:29.280 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:46:29.280 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:46:29.280 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:46:29.280 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:46:29.283 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:46:29.283 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:46:29.284 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:46:29.480 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:46:29.480 INFO  c.t.h.WorkerThread - [worker.0]: 196 ms 	1 sources.
+2020-11-14 09:46:29.481 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 9 milliseconds
+2020-11-14 09:46:29.481 INFO  c.t.hydra.Hydra - Hydra compiling: 197 ms
+2020-11-14 09:46:29.482 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:46:29.482 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 696 ms.
+2020-11-14 09:46:29.484 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343589280
+2020-11-14 09:46:37.622 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 1 ms.
+2020-11-14 09:46:37.623 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:46:37.623 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:46:37.623 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:46:37.623 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:46:37.623 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:46:37.623 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:46:37.626 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:46:37.626 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:46:37.626 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:46:37.795 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:46:37.795 INFO  c.t.h.WorkerThread - [worker.0]: 168 ms 	1 sources.
+2020-11-14 09:46:37.795 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:46:37.795 INFO  c.t.hydra.Hydra - Hydra compiling: 169 ms
+2020-11-14 09:46:37.796 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:46:37.796 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 668 ms.
+2020-11-14 09:46:37.797 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605343597623
+2020-11-14 09:54:15.415 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 8 ms.
+2020-11-14 09:54:15.422 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:54:15.422 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:54:15.422 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:54:15.422 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:54:15.423 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-11-14 09:54:15.423 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:54:15.429 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:54:15.430 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:54:15.431 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:54:15.820 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:54:15.820 INFO  c.t.h.WorkerThread - [worker.0]: 386 ms 	1 sources.
+2020-11-14 09:54:15.821 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 09:54:15.821 INFO  c.t.hydra.Hydra - Hydra compiling: 390 ms
+2020-11-14 09:54:15.823 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:54:15.823 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 886 ms.
+2020-11-14 09:54:15.827 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605344055422
+2020-11-14 09:54:45.899 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 1 files in 1 roots took 0 ms.
+2020-11-14 09:54:45.901 INFO  c.t.hydra.Hydra - Loaded pickle store with 1 entries.
+2020-11-14 09:54:45.901 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 09:54:45.901 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 09:54:45.901 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 09:54:45.901 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 09:54:45.901 INFO  c.t.hydra.Hydra - Clean build: true
+2020-11-14 09:54:45.911 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 09:54:45.911 INFO  c.t.h.SourcePartitioner$ - No automatically balanced partition file /Users/njumbo/scala_fp_book/.hydra/idea/scala_fp_book/main/partition.hydra exist yet. Using plain partition strategy.
+2020-11-14 09:54:45.912 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 09:54:46.180 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 09:54:46.180 INFO  c.t.h.WorkerThread - [worker.0]: 267 ms 	1 sources.
+2020-11-14 09:54:46.181 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 23 milliseconds
+2020-11-14 09:54:46.181 INFO  c.t.hydra.Hydra - Hydra compiling: 269 ms
+2020-11-14 09:54:46.182 INFO  worker.0 - Total time in late files: 0 ms in 0 late files
+2020-11-14 09:54:46.183 INFO  c.t.hydra.Hydra - Compile time threshold for reporting unbalanced workers is 767 ms.
+2020-11-14 09:54:46.184 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605344085901
