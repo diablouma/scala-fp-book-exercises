@@ -32,3 +32,5 @@ Time, Tag, Workers, Files, Compilation Duration (ms), GC Duration (ms)
 2020/11/14 10:47:30,        scala_fp_book/main,   1,     1,       151,         0
 2020/11/14 10:47:55,        scala_fp_book/main,   1,     1,       142,         0
 2020/11/14 10:48:25,        scala_fp_book/main,   1,     1,       143,         0
+2020/11/14 18:19:27,        scala_fp_book/main,   3,     3,      1514,        19
+2020/11/14 18:19:50,        scala_fp_book/main,   1,     1,       312,         0

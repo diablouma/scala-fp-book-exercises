@@ -551,3 +551,44 @@
 2020-11-14 10:48:25.568 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
 2020-11-14 10:48:25.568 INFO  c.t.hydra.Hydra - Hydra compiling: 143 ms
 2020-11-14 10:48:25.570 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605347305422
+2020-11-14 18:19:27.006 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 6 files in 1 roots took 83 ms.
+2020-11-14 18:19:27.031 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 18:19:27.032 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 18:19:27.033 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 18:19:27.033 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 18:19:27.042 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 7 ms.
+2020-11-14 18:19:27.042 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 18:19:27.414 INFO  c.t.h.l.ActivatedLicenseText - ActivatedLicenseText.validate took 342 ms.
+2020-11-14 18:19:27.414 INFO  c.t.h.l.HydraLicenseChecker - Trying to reactivate license close to expiration date. Days left: 14
+2020-11-14 18:19:27.442 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 18:19:27.453 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 18:19:27.468 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1:1:1
+2020-11-14 18:19:27.489 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 18:19:27.489 INFO  c.t.hydra.Hydra - [worker.1]: Starting worker with 1 files.
+2020-11-14 18:19:27.489 INFO  c.t.hydra.Hydra - [worker.2]: Starting worker with 1 files.
+2020-11-14 18:19:28.988 INFO  worker.2 - Worker used 0 cached entries.
+2020-11-14 18:19:28.988 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 18:19:28.988 INFO  c.t.h.WorkerThread - [worker.2]: 1474 ms 	1 sources.
+2020-11-14 18:19:28.988 INFO  c.t.h.WorkerThread - [worker.0]: 1474 ms 	1 sources.
+2020-11-14 18:19:28.992 INFO  worker.1 - Worker used 0 cached entries.
+2020-11-14 18:19:28.992 INFO  c.t.h.WorkerThread - [worker.1]: 1478 ms 	1 sources.
+2020-11-14 18:19:29.001 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 19 milliseconds
+2020-11-14 18:19:29.002 INFO  c.t.hydra.Hydra - Hydra compiling: 1514 ms
+2020-11-14 18:19:29.064 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605374367031
+2020-11-14 18:19:29.527 INFO  c.t.h.l.HydraLicenseChecker - Successfully reactivated license, new days left: 14
+2020-11-14 18:19:50.093 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 6 files in 1 roots took 5 ms.
+2020-11-14 18:19:50.096 INFO  c.t.hydra.Hydra - Loaded pickle store with 8 entries.
+2020-11-14 18:19:50.096 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 18:19:50.096 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 18:19:50.096 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 18:19:50.096 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 18:19:50.096 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 18:19:50.100 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 18:19:50.100 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 18:19:50.101 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 18:19:50.101 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 18:19:50.412 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 18:19:50.412 INFO  c.t.h.WorkerThread - [worker.0]: 310 ms 	1 sources.
+2020-11-14 18:19:50.413 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 18:19:50.413 INFO  c.t.hydra.Hydra - Hydra compiling: 312 ms
+2020-11-14 18:19:50.415 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605374390096

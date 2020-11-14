@@ -1,11 +1,12 @@
 package dataStructures
 
 // sealed: all the implementations must be in this file
-sealed trait List[+A] // + covariant means that if A is subtype of B, then List[A] is subtype of List[B]
+sealed trait List[+A] // + is a covariant which means that if A is subtype of B, then List[A] is subtype of List[B]
 case object Nil extends List[Nothing] // first data constructor, declared with case// Nothing is a subtype of all types
 // then List[Nothing] is a subtype of all List so Nil will be subtype of any List
 case class Cons[+A](head: A, tail: List[A]) extends List[A] // second data constructor
 
+//companion object:
 object List {
   def sum(ints: List[Int]): Int = ints match {
     case Nil => 0
