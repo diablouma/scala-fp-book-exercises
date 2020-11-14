@@ -19,6 +19,11 @@ object List {
     case Cons(x, xs) => x * product(xs)
   }
 
+  // A* variadic function, accepts zero or more arguments of type A
+  // Allows to call like List(1,2,3,4) List("hi", "bye")
+  // _* is a special instance of type ascription which tells the
+  // compiler to treat a single argument of a sequence type as a
+  // \variable argument sequence, i.e. varargs.
   def apply[A](as: A*): List[A] =
     if(as.isEmpty) Nil
     else Cons(as.head, apply(as.tail: _*))
