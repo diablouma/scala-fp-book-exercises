@@ -391,3 +391,163 @@
 2020-11-14 10:23:55.947 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
 2020-11-14 10:23:55.947 INFO  c.t.hydra.Hydra - Hydra compiling: 175 ms
 2020-11-14 10:23:55.950 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605345835767
+2020-11-14 10:39:36.701 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 17 ms.
+2020-11-14 10:39:36.706 INFO  c.t.hydra.Hydra - Loaded pickle store with 2 entries.
+2020-11-14 10:39:36.706 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:39:36.706 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:39:36.706 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:39:36.707 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-11-14 10:39:36.707 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:39:36.721 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:39:36.722 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:39:36.731 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:39:36.732 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:39:37.050 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:39:37.050 INFO  c.t.h.WorkerThread - [worker.0]: 309 ms 	1 sources.
+2020-11-14 10:39:37.051 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:39:37.051 INFO  c.t.hydra.Hydra - Hydra compiling: 319 ms
+2020-11-14 10:39:37.057 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605346776706
+2020-11-14 10:39:55.214 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 1 ms.
+2020-11-14 10:39:55.216 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:39:55.216 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:39:55.216 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:39:55.216 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:39:55.216 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:39:55.216 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:39:55.221 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:39:55.221 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:39:55.221 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:39:55.222 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:39:55.430 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:39:55.430 INFO  c.t.h.WorkerThread - [worker.0]: 208 ms 	1 sources.
+2020-11-14 10:39:55.430 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:39:55.430 INFO  c.t.hydra.Hydra - Hydra compiling: 208 ms
+2020-11-14 10:39:55.432 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605346795216
+2020-11-14 10:40:33.794 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 1 ms.
+2020-11-14 10:40:33.795 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:40:33.795 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:40:33.795 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:40:33.795 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:40:33.796 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 1 ms.
+2020-11-14 10:40:33.796 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:40:33.801 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:40:33.801 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:40:33.802 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:40:33.802 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:40:34.009 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:40:34.009 INFO  c.t.h.WorkerThread - [worker.0]: 206 ms 	1 sources.
+2020-11-14 10:40:34.010 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:40:34.010 INFO  c.t.hydra.Hydra - Hydra compiling: 208 ms
+2020-11-14 10:40:34.012 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605346833795
+2020-11-14 10:42:15.965 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 1 ms.
+2020-11-14 10:42:15.968 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:42:15.968 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:42:15.968 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:42:15.968 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:42:15.968 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:42:15.968 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:42:15.973 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:42:15.974 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:42:15.974 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:42:15.974 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:42:16.187 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:42:16.187 INFO  c.t.h.WorkerThread - [worker.0]: 212 ms 	1 sources.
+2020-11-14 10:42:16.188 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:42:16.188 INFO  c.t.hydra.Hydra - Hydra compiling: 214 ms
+2020-11-14 10:42:16.190 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605346935968
+2020-11-14 10:44:51.725 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 2 ms.
+2020-11-14 10:44:51.726 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:44:51.726 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:44:51.726 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:44:51.726 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:44:51.726 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:44:51.726 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:44:51.730 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:44:51.730 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:44:51.730 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:44:51.731 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:44:51.891 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:44:51.891 INFO  c.t.h.WorkerThread - [worker.0]: 160 ms 	1 sources.
+2020-11-14 10:44:51.891 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:44:51.892 INFO  c.t.hydra.Hydra - Hydra compiling: 161 ms
+2020-11-14 10:44:51.894 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605347091726
+2020-11-14 10:45:00.402 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 1 ms.
+2020-11-14 10:45:00.403 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:45:00.403 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:45:00.403 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:45:00.403 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:45:00.403 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:45:00.403 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:45:00.406 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:45:00.407 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:45:00.407 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:45:00.407 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:45:00.558 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:45:00.558 INFO  c.t.h.WorkerThread - [worker.0]: 150 ms 	1 sources.
+2020-11-14 10:45:00.559 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:45:00.559 INFO  c.t.hydra.Hydra - Hydra compiling: 152 ms
+2020-11-14 10:45:00.562 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605347100403
+2020-11-14 10:45:52.247 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 1 ms.
+2020-11-14 10:45:52.250 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:45:52.250 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:45:52.250 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:45:52.250 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:45:52.250 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:45:52.250 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:45:52.253 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:45:52.253 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:45:52.253 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:45:52.253 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:45:52.408 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:45:52.409 INFO  c.t.h.WorkerThread - [worker.0]: 154 ms 	1 sources.
+2020-11-14 10:45:52.409 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:45:52.409 INFO  c.t.hydra.Hydra - Hydra compiling: 156 ms
+2020-11-14 10:45:52.411 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605347152250
+2020-11-14 10:47:30.093 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 1 ms.
+2020-11-14 10:47:30.094 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:47:30.094 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:47:30.094 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:47:30.094 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:47:30.094 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:47:30.094 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:47:30.097 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:47:30.097 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:47:30.098 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:47:30.098 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:47:30.248 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:47:30.248 INFO  c.t.h.WorkerThread - [worker.0]: 149 ms 	1 sources.
+2020-11-14 10:47:30.249 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:47:30.249 INFO  c.t.hydra.Hydra - Hydra compiling: 151 ms
+2020-11-14 10:47:30.252 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605347250094
+2020-11-14 10:47:55.946 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 1 ms.
+2020-11-14 10:47:55.947 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:47:55.947 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:47:55.947 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:47:55.947 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:47:55.947 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:47:55.947 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:47:55.949 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:47:55.950 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:47:55.950 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:47:55.950 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:47:56.092 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:47:56.092 INFO  c.t.h.WorkerThread - [worker.0]: 141 ms 	1 sources.
+2020-11-14 10:47:56.092 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:47:56.092 INFO  c.t.hydra.Hydra - Hydra compiling: 142 ms
+2020-11-14 10:47:56.095 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605347275947
+2020-11-14 10:48:25.421 INFO  c.t.h.c.c.ParsedLogicalPackage$OutlineParseCompiler - Outline parse 3 files in 1 roots took 2 ms.
+2020-11-14 10:48:25.422 INFO  c.t.hydra.Hydra - Loaded pickle store with 3 entries.
+2020-11-14 10:48:25.422 INFO  c.t.hydra.Hydra - Hydra Scala version: 2.13.3-hydra41
+2020-11-14 10:48:25.422 INFO  c.t.hydra.Hydra - Hydra version:       2.2.4
+2020-11-14 10:48:25.422 INFO  c.t.hydra.Hydra - Compiling project:   scala_fp_book/main
+2020-11-14 10:48:25.422 INFO  c.t.h.FullBuildDetector$ - Recursive - Full build detection took 0 ms.
+2020-11-14 10:48:25.422 INFO  c.t.hydra.Hydra - Clean build: false
+2020-11-14 10:48:25.424 INFO  c.t.h.l.HydraLicenseChecker - Days until license expiration: 14. Maximum cores: 8
+2020-11-14 10:48:25.425 INFO  c.t.h.m.Metrics - Deserializing unit-timings.csv.
+2020-11-14 10:48:25.425 INFO  c.t.h.m.AutoBalancer - Balanced workers with distribution (ms): 1
+2020-11-14 10:48:25.425 INFO  c.t.hydra.Hydra - [worker.0]: Starting worker with 1 files.
+2020-11-14 10:48:25.567 INFO  worker.0 - Worker used 0 cached entries.
+2020-11-14 10:48:25.567 INFO  c.t.h.WorkerThread - [worker.0]: 141 ms 	1 sources.
+2020-11-14 10:48:25.568 INFO  c.t.h.m.GarbageCollection$ - Garbage collection duration: 0 milliseconds
+2020-11-14 10:48:25.568 INFO  c.t.hydra.Hydra - Hydra compiling: 143 ms
+2020-11-14 10:48:25.570 INFO  c.t.h.m.MetricsSerializer - Compilation metrics successfully stored in /Users/njumbo/.triplequote/metrics/scala_fp_book-1605347305422
