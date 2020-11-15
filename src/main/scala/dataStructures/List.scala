@@ -20,13 +20,13 @@ object List {
   }
 
   def tail[A](as: List[A]): List[A] = as match {
-    case Nil => Nil
+    case Nil => sys.error("tail not available on empty list")
     case Cons(_, xs) => xs
   }
 
   def setHead[A](as: List[A], newHead: A): List[A] = (as, newHead) match {
-    case (_, Nil) => as
-    case (_, null) => as
+    case (_, Nil) => sys.error("setHead not possible on empty list")
+    case (_, null) => sys.error("setHead not possible on empty list")
     case (Cons(_, xs), x) => Cons(x, xs)
   }
 
