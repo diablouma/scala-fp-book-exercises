@@ -24,10 +24,9 @@ object List {
     case Cons(_, xs) => xs
   }
 
-  def setHead[A](as: List[A], newHead: A): List[A] = (as, newHead) match {
-    case (_, Nil) => sys.error("setHead not possible on empty list")
-    case (_, null) => sys.error("setHead not possible on empty list")
-    case (Cons(_, xs), x) => Cons(x, xs)
+  def setHead[A](as: List[A], newHead: A): List[A] = as match {
+    case Nil => sys.error("setHead not possible on empty list")
+    case Cons(_, xs) => Cons(newHead, xs)
   }
 
   // A* variadic function, accepts zero or more arguments of type A
