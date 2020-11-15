@@ -46,6 +46,19 @@ object List {
     }
   }
 
+  // the key here is the pattern guard
+  // if(f(h)) before the =>
+  // what the exercise says is that I should continue removing
+  // if the function matches, whenever the function does not match
+  // I should stop
+  // At the beginning I understood I should delete all the elements that
+  // matches the condition
+  @tailrec
+  def dropWhile[A](l: List[A], f: A => Boolean): List[A] = l match {
+    case Cons(h, t) if f(h) => dropWhile(t, f)
+    case _ => l
+  }
+
   // A* variadic function, accepts zero or more arguments of type A
   // Allows to call like List(1,2,3,4) List("hi", "bye")
   // _* is a special instance of type ascription which tells the
