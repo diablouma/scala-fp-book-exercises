@@ -24,6 +24,12 @@ object List {
     case Cons(_, xs) => xs
   }
 
+  def setHead[A](as: List[A], newHead: A): List[A] = (as, newHead) match {
+    case (_, Nil) => as
+    case (_, null) => as
+    case (Cons(_, xs), x) => Cons(x, xs)
+  }
+
   // A* variadic function, accepts zero or more arguments of type A
   // Allows to call like List(1,2,3,4) List("hi", "bye")
   // _* is a special instance of type ascription which tells the
