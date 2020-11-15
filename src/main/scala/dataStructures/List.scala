@@ -1,5 +1,7 @@
 package dataStructures
 
+import scala.annotation.tailrec
+
 // sealed: all the implementations must be in this file
 sealed trait List[+A] // + is a covariant which means that if A is subtype of B, then List[A] is subtype of List[B]
 case object Nil extends List[Nothing] // first data constructor, declared with case// Nothing is a subtype of all types
@@ -27,6 +29,21 @@ object List {
   def setHead[A](as: List[A], newHead: A): List[A] = as match {
     case Nil => sys.error("setHead not possible on empty list")
     case Cons(_, xs) => Cons(newHead, xs)
+  }
+
+  @tailrec
+  def dropMine[A](as: List[A], quantityOfElementsToDrop: Int): List[A] = (as, quantityOfElementsToDrop) match {
+    case (Nil, 0) => Nil
+    case (Cons(h, xs), q) => if (q == 0) Cons(h, xs) else dropMine(xs, q - 1)
+  }
+
+  @tailrec
+  def dropFromBookResolution[A](as: List[A], quantityOfElementsToDrop: Int): List[A] = {
+    if (quantityOfElementsToDrop <= 0) as
+    else as match {
+      case Nil => Nil
+      case Cons(_, t) => dropFromBookResolution(t, quantityOfElementsToDrop - 1)
+    }
   }
 
   // A* variadic function, accepts zero or more arguments of type A
