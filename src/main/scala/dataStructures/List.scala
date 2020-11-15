@@ -19,6 +19,11 @@ object List {
     case Cons(x, xs) => x * product(xs)
   }
 
+  def tail[A](as: List[A]): List[A] = as match {
+    case Nil => Nil
+    case Cons(_, xs) => xs
+  }
+
   // A* variadic function, accepts zero or more arguments of type A
   // Allows to call like List(1,2,3,4) List("hi", "bye")
   // _* is a special instance of type ascription which tells the
