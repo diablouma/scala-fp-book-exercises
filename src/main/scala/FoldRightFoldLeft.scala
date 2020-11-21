@@ -7,7 +7,7 @@ object FoldRightFoldLeft {
       x + z
     })
 
-    foldLeft(List(1,2,3), 0)((y, z) => {
+    foldLeft(List(1,2,3), 0)((z, y) => {
       println("fold left val1: " + z + " val2: " + y)
       z + y
     })
