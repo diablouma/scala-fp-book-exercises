@@ -153,6 +153,14 @@ object List {
     case Cons(h, t) => Cons(h, append(t, a2))
   }
 
+  def appendInTermsOfFoldLeft[A](l1: List[A], l2: List[A]): List[A] = {
+    foldLeft(reverse(l1), l2)((acc, h) => Cons(h, acc))
+  }
+
+  def appendInTermsOfFoldRight[A](l1: List[A], l2: List[A]): List[A] = {
+    foldRight(l1, l2)((h, acc) => Cons(h, acc))
+  }
+
   // A* variadic function, accepts zero or more arguments of type A
   // Allows to call like List(1,2,3,4) List("hi", "bye")
   // _* is a special instance of type ascription which tells the
