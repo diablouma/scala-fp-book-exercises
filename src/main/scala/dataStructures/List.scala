@@ -196,9 +196,11 @@ object List {
     @tailrec
     def go(l: List[A], counter: Int): Unit = {
       l match {
-        case Cons(_, Nil) => Nil
+        case Cons(h, Nil) =>
+          println("element:" + h)
+          Nil
         case Cons(h, t) =>
-          println(h)
+          println("element:" + h)
           go(t, counter - 1)
       }
     }
