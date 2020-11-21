@@ -19,13 +19,21 @@ object List {
   def foldLeft[A,B](as: List[A], z: B)(f: (B, A) => B): B = {
     as match {
       case Nil => z
+        // on the first iteration I call f(0, el primer elemento de la lista)
+        // resulting in: 0, 1
       case Cons(x, xs) => foldLeft(xs, f(z, x))(f)
     }
   }
 
-  def foldRight[A,B](as: List[A], z:B)(f: (A,B) => B): B =
+  def foldRight[A,B](as: List[A], z:B)(f: (A, B) => B): B =
     as match {
       case Nil => z
+      // on the first call I call f(the first element of the list, recursive call,
+      // entonces solo cuando llegue al final tendré el primer resultado del acumulador
+      // 0, foldRight(tail, accumulador)
+      // al final de la lista es cuando recién tendré el primer resultado
+      // e iré acumulando hacia el inicio de la lista;
+      // this foldRight function also is not tail recursive
       case Cons(x, xs) => f(x, foldRight(xs, z)(f))
     }
 
