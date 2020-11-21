@@ -191,9 +191,19 @@ object List {
   }
 
   def printArray[A](l: List[A]): Unit = {
+    val length = lengthWithFoldLeft(l)
 
+    @tailrec
+    def go(l: List[A], counter: Int): Unit = {
+      l match {
+        case Cons(_, Nil) => Nil
+        case Cons(h, t) =>
+          println(h)
+          go(t, counter - 1)
+      }
+    }
 
-
+    go(l, length)
   }
 
   // A* variadic function, accepts zero or more arguments of type A
