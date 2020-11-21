@@ -22,8 +22,17 @@ object List {
         // on the first iteration I call f(0, el primer elemento de la lista)
         // resulting in: 0, 1
         // I can evaluate the function f, and get a result from the beginning
+      //   call:     Cons(1, Cons(2,Nil))
+        // foldLeft(Cons(2,Nil), f(List(), 1) devuelve Cons(1, List())
+        // next call: for Cons(2, Nil)
+        // foldLeft(Nil, f(list(1), 2) devuelve Cons(2, list(1))
       case Cons(x, xs) => foldLeft(xs, f(z, x))(f)
     }
+  }
+
+  def reverse[A](l: List[A]): List[A] = {
+//    List(1,2)
+    foldLeft(l, List[A]())((acc, h) => Cons(h, acc))
   }
 
   def foldRight[A,B](as: List[A], z:B)(f: (A, B) => B): B =
