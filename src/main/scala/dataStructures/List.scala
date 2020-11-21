@@ -31,6 +31,17 @@ object List {
     case Cons(_, xs) => Cons(newHead, xs)
   }
 
+  // COnstant time, O(1) means that the function
+  //  In "constant time" generally means that the time it will
+  //  take to compute the result is independent of the size of the input.
+  def init[A](l: List[A]): List[A] = {
+    l match {
+        case Cons(_, Nil) => Nil
+        case Cons(h, t) => Cons(h, init(t)) // here we doing something else with the return of
+        // init function so is to tail rec.
+    }
+  }
+
   @tailrec
   def dropMine[A](as: List[A], quantityOfElementsToDrop: Int): List[A] = (as, quantityOfElementsToDrop) match {
     case (Nil, 0) => Nil
