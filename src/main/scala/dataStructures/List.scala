@@ -70,6 +70,14 @@ object List {
     case _ => l
   }
 
+  // currying this way, scala type inferer will be able to determine the types
+  // of the second group of arguments
+  @tailrec
+  def dropWhileCurried[A](l: List[A])(f: A => Boolean): List[A] = l match {
+    case Cons(h, t) if f(h) => dropWhileCurried(t)(f)
+    case _ => l
+  }
+
   def append[A](a1: List[A], a2: List[A]): List[A] = a1 match {
     case Nil => a2
     case Cons(h, t) => Cons(h, append(t, a2))
