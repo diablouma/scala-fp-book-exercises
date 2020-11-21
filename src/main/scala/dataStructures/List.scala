@@ -10,6 +10,10 @@ case class Cons[+A](head: A, tail: List[A]) extends List[A] // second data const
 
 //companion object:
 object List {
+  // sum and product are really similar
+  // differences, the one return 0 and the other 1 in case of Nil
+  // the operation is + or *
+  // we can extract this to subexpressions
   def sum(ints: List[Int]): Int = ints match {
     case Nil => 0
     case Cons(x, xs) => x + sum(xs)
