@@ -11,6 +11,10 @@ case class Cons[+A](head: A, tail: List[A]) extends List[A] // second data const
 //companion object:
 object List {
 
+  def length[A](as: List[A]): Int = {
+    foldRight(as, 0)((_, acc) => acc + 1)
+  }
+
   def foldRight[A,B](as: List[A], z:B)(f: (A,B) => B): B =
     as match {
       case Nil => z
