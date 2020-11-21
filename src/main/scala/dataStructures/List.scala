@@ -10,6 +10,18 @@ case class Cons[+A](head: A, tail: List[A]) extends List[A] // second data const
 
 //companion object:
 object List {
+
+  def foldRight[A,B](as: List[A], z:B)(f: (A,B) => B): B =
+    as match {
+      case Nil => z
+      case Cons(x, xs) => f(x, foldRight(xs, z)(f))
+    }
+    
+  def sum2(ns: List[Int]) =
+    foldRight(ns, 0)((x,y) => x + y)
+
+  def product2(ns: List[Double]) =
+    foldRight(ns, 1.0)(_ * _)
   // sum and product are really similar
   // differences, the one return 0 and the other 1 in case of Nil
   // the operation is + or *
