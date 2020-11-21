@@ -161,6 +161,41 @@ object List {
     foldRight(l1, l2)((h, acc) => Cons(h, acc))
   }
 
+  def concat[A](lists: List[List[A]]): Unit = {
+//    //[[1,2][3,4],[5,6]]
+//    val totalOfLists = lengthWithFoldLeft(lists)
+//
+//    @tailrec
+//    def go(counter: Int): Unit = {
+//      (counter) match {
+//        case (0) => println("La Lista: ", h)
+//        case (counter) => go(counter - 1)
+//      }
+//    }
+//    go(totalOfLists)
+
+
+  }
+
+  def elementAt[A](l: List[A], position: Int): A = {
+    val length = List.length(l)
+
+    @tailrec
+    def go(l: List[A], currentIndex: Int): A = l match {
+      case Cons(h, _) if currentIndex == length - 1 => h
+      case Cons(h, _) if currentIndex == position => h
+      case Cons(_, t) => go(t, currentIndex + 1)
+    }
+
+    go(l, 0)
+  }
+
+  def printArray[A](l: List[A]): Unit = {
+
+
+
+  }
+
   // A* variadic function, accepts zero or more arguments of type A
   // Allows to call like List(1,2,3,4) List("hi", "bye")
   // _* is a special instance of type ascription which tells the
