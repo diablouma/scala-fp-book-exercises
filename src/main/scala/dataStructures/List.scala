@@ -21,7 +21,16 @@ object List {
     foldRight(ns, 0)((x,y) => x + y)
 
   def product2(ns: List[Double]) =
+  // _ * _ in cases where scala is able to infer the types,
+  // useful when parameters are used just once in the body of the function
+  // each underscore introduces a new unnamed function
+  // arguments are introduced from left to righ
+  // _ * 2 means (x,2) => x*2
+  // _.head means xs => xs.head
+  // _ drop _ means (x,y) => x.drop(y)
     foldRight(ns, 1.0)(_ * _)
+
+
   // sum and product are really similar
   // differences, the one return 0 and the other 1 in case of Nil
   // the operation is + or *
