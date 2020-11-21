@@ -161,20 +161,21 @@ object List {
     foldRight(l1, l2)((h, acc) => Cons(h, acc))
   }
 
-  def concat[A](lists: List[List[A]]): Unit = {
-//    //[[1,2][3,4],[5,6]]
-//    val totalOfLists = lengthWithFoldLeft(lists)
-//
-//    @tailrec
-//    def go(counter: Int): Unit = {
-//      (counter) match {
-//        case (0) => println("La Lista: ", h)
-//        case (counter) => go(counter - 1)
-//      }
-//    }
-//    go(totalOfLists)
-
-
+  def concat[A](lists: List[List[A]]): List[A] = {
+    val totalOfLists = lengthWithFoldLeft(lists)
+    @tailrec
+    def go(l: List[List[A]], counter: Int, acc: List[A]): List[A] = {
+       l match {
+         case Cons(Cons(h2, t2), Nil) =>
+           val lastList = Cons(h2, t2)
+           appendInTermsOfFoldRight(acc, lastList)
+         case Cons(Cons(h2, t2), t) =>
+            val listOnHead = Cons(h2, t2)
+            val value = appendInTermsOfFoldRight(acc, listOnHead)
+            go(t, counter - 1, value)
+      }
+    }
+    go(lists, totalOfLists, List())
   }
 
   def elementAt[A](l: List[A], position: Int): A = {
