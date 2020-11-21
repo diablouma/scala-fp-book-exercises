@@ -70,6 +70,18 @@ object List {
     case Cons(x, xs) => x * product(xs)
   }
 
+  def sumWithFoldLeft(ints: List[Int]): Int = {
+      foldLeft(ints, 0)(_ + _)
+  }
+
+  def productWithFoldLeft(ints: List[Double]): Double = {
+      foldLeft(ints, 1.0)(_ * _)
+  }
+
+  def lengthWithFoldLeft[A](l: List[A]): Int = {
+    foldLeft(l, 0)((acc, _) => acc + 1 )
+  }
+
   def tail[A](as: List[A]): List[A] = as match {
     case Nil => sys.error("tail not available on empty list")
     case Cons(_, xs) => xs
