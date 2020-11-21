@@ -21,6 +21,7 @@ object List {
       case Nil => z
         // on the first iteration I call f(0, el primer elemento de la lista)
         // resulting in: 0, 1
+        // I can evaluate the function f, and get a result from the beginning
       case Cons(x, xs) => foldLeft(xs, f(z, x))(f)
     }
   }
@@ -34,6 +35,10 @@ object List {
       // al final de la lista es cuando recién tendré el primer resultado
       // e iré acumulando hacia el inicio de la lista;
       // this foldRight function also is not tail recursive
+        // I will be able to get the result of evaluating the exection of f
+        // only when foldRight reached the last element, as on that point
+        // I will have the first return for foldRight(xs,z)
+        // than will be used to evaluate f
       case Cons(x, xs) => f(x, foldRight(xs, z)(f))
     }
 
