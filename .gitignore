@@ -1,4 +1,4 @@
 .hydra/*
 .idea
 .hydra/idea/
-.target/
+target/
