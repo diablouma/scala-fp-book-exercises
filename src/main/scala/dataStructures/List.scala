@@ -15,6 +15,10 @@ object List {
     foldRight(as, 0)((_, acc) => acc + 1)
   }
 
+  def addOneToEachElement(l: List[Int]): List[Int] = {
+    foldLeft(l, List[Int]())((acc, item) => appendInTermsOfFoldRight(acc,  List(item + 1)))
+  }
+
   @tailrec
   def foldLeft[A,B](as: List[A], z: B)(f: (B, A) => B): B = {
     as match {
