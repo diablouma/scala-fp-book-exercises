@@ -15,6 +15,13 @@ object List {
     foldRight(as, 0)((_, acc) => acc + 1)
   }
 
+  def filter[A](l: List[A])(f: A => Boolean): List[A] = {
+    foldRight(l, List[A]())((item, acc) => item match {
+      case _ if f(item) => Cons(item, acc)
+      case _ => acc
+    })
+  }
+
   def map[A, B](l: List[A])(f: A => B): List[B] =
     foldRight(l, List[B]())((item, acc) => Cons( f(item), acc))
 
