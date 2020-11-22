@@ -19,6 +19,9 @@ object List {
     foldLeft(l, List[Int]())((acc, item) => appendInTermsOfFoldRight(acc,  List(item + 1)))
   }
 
+  def transformToStrings(l: List[Double]): List[String] =
+    foldLeft(l, List[String]())((acc, item) => Cons(item.toString, acc))
+
   @tailrec
   def foldLeft[A,B](as: List[A], z: B)(f: (B, A) => B): B = {
     as match {
