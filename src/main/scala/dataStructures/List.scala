@@ -15,6 +15,9 @@ object List {
     foldRight(as, 0)((_, acc) => acc + 1)
   }
 
+  def map[A, B](l: List[A])(f: A => B): List[B] =
+    foldRight(l, List[B]())((item, acc) => Cons( f(item), acc))
+
   def addOneToEachElement(l: List[Int]): List[Int] = {
     foldLeft(l, List[Int]())((acc, item) => appendInTermsOfFoldRight(acc,  List(item + 1)))
   }
