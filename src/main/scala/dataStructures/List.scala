@@ -22,6 +22,16 @@ object List {
     })
   }
 
+  def filterUsingFlatMap[A](l: List[A])(f: A=> Boolean): List[A] = {
+    flatMap(l)((item) => {
+      if(f(item)) {
+        List(item)
+      } else {
+        List()
+      }
+    })
+  }
+
   def flatMap[A,B](as: List[A])(f: A => List[B]): List[B] = {
     foldLeft(as, List[B]())((acc, item) => appendInTermsOfFoldLeft(acc, f(item)))
   }
