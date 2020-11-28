@@ -33,8 +33,8 @@ object List {
     def go(length: Int, acc: List[Int]): List[Int] = {
       (length, acc) match {
         case _ if length == l1Length => reverse(acc)
-        case (0, Nil) => go(length + 1, Cons(sum(List(elementAt(l1, length), elementAt(l2, length))), Nil))
-        case (_, _) => go(length + 1, Cons(sum(List(elementAt(l1, length), elementAt(l2, length))), acc))
+        case (0, Nil) => go(length + 1, Cons(elementAt(l1, length) + elementAt(l2, length), Nil))
+        case (_, _) => go(length + 1, Cons(elementAt(l1, length) + elementAt(l2, length), acc))
       }
     }
     go(0, List())
