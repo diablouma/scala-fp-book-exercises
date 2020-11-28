@@ -22,6 +22,24 @@ object List {
     })
   }
 
+  def sumCorrespondingElementsByPosition(l1: List[Int], l2: List[Int]): List[Int] = {
+    // tomar los elementos de ambas listas a la vez
+    // aplicarles una función suma
+    // y el resultado irá a una lista que actúa de acumulador
+    // necesito sumar los elementos en el mismo indice de cada lista
+    val l1Length = length(l1)
+
+    @tailrec
+    def go(length: Int, acc: List[Int]): List[Int] = {
+      (length, acc) match {
+        case _ if length == l1Length => reverse(acc)
+        case (0, Nil) => go(length + 1, Cons(sum(List(elementAt(l1, length), elementAt(l2, length))), Nil))
+        case (_, _) => go(length + 1, Cons(sum(List(elementAt(l1, length), elementAt(l2, length))), acc))
+      }
+    }
+    go(0, List())
+  }
+
   def filterUsingFlatMap[A](l: List[A])(f: A=> Boolean): List[A] = {
     flatMap(l)((item) => {
       if(f(item)) {
