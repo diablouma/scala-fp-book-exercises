@@ -40,6 +40,15 @@ object List {
     go(0, List())
   }
 
+  def addPairwise(a: List[Int], b: List[Int]): List[Int] = {
+    //solution from the companion book
+    (a,b) match {
+      case (Nil, _) => Nil
+      case (_, Nil) => Nil
+      case (Cons(h1,t1), Cons(h2,t2)) => Cons(h1 + h2, addPairwise(t1,t2))
+    }
+  }
+
   def filterUsingFlatMap[A](l: List[A])(f: A=> Boolean): List[A] = {
     flatMap(l)((item) => {
       if(f(item)) {
