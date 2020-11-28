@@ -22,6 +22,10 @@ object List {
     })
   }
 
+  def flatMap[A,B](as: List[A])(f: A => List[B]): List[B] = {
+    foldLeft(as, List[B]())((acc, item) => appendInTermsOfFoldLeft(acc, f(item)))
+  }
+
   def map[A, B](l: List[A])(f: A => B): List[B] =
     foldRight(l, List[B]())((item, acc) => Cons( f(item), acc))
 
