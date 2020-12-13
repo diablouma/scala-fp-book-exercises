@@ -1,5 +1,9 @@
 package dataStructures
 
+import dataStructures.List.{appendInTermsOfFoldRight, elementAt}
+
+import scala.annotation.tailrec
+
 sealed trait Option[+A] {
   def map[B](f: A => B): Option[B] = {
     this match {
@@ -48,5 +52,21 @@ object Option {
 
   def variance(xs: Seq[Double]): Option[Double] = {
     mean(xs).flatMap(m => mean(xs.map(x => math.pow(x - m, 2))))
+  }
+
+  def sequence[A](a: List[Option[A]]): Option[List[A]] = {
+    val lengthOfList: Int = List.length(a)
+    
+    @tailrec
+    def go(acc: Int, result: List[A]): Option[List[A]] = {
+      val element = elementAt(a, acc)
+      (acc, element) match {
+        case (_, None) => None
+        case (_,_) if acc == lengthOfList => Some(result)
+        case (_, Some(a)) => go(acc + 1, appendInTermsOfFoldRight(result, List(a)))
+      }
+    }
+
+    go(0, List[A]())
   }
 }
