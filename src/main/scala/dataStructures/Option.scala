@@ -8,12 +8,8 @@ sealed trait Option[+A] {
     }
   }
 
-  def map2[A,B,C](a: Option[A], b: Option[B])(f: (A, B) => C): Option[C] = {
-    (a,b) match {
-      case (None, None) => None
-      case (_ , _) => Some(f(a.getOrElse(), b.getOrElse()))
-    }
-  }
+  def map2[A,B,C](a: Option[A], b: Option[B])(f: (A, B) => C): Option[C] =
+    a flatMap (aa => b map (bb => f(aa, bb)))
 
   def getOrElse[B>:A](default: => B): B = {
     this match {
